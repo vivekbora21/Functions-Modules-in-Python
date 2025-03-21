@@ -1,4 +1,4 @@
-def fact(n):
+def factorial(n):
     if n < 2:
         return 1
     else:
@@ -8,5 +8,5 @@ def fact(n):
         return result
 
 num = int(input("Enter a number: "))
-fac = fact(num)
+fac = factoria(num)
 print(f"Factorial of {num} is: ",fac)
